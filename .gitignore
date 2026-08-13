@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Compiled outputs and build directories
+dist/
+tmp/
+out-tsc/
+bazel-out/
+.angular/
+
+# SQLite databases & temp files
+*.db
+*.db-shm
+*.db-wal
+Backend/f1_pitwall.db*
+
+# Environment and local configs
+.env
+.env.local
+.env.*.local
+.vscode/
+.idea/
+
+# System files and logs
+*.log
+.DS_Store
+Thumbs.db

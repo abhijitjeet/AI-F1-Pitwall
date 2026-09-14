@@ -22,6 +22,8 @@
     "@nestjs/platform-express": "^11.1.29",
     "better-sqlite3": "^13.0.3",
     "csv-parser": "^3.2.1",
+    "dotenv": "^17.4.2",
+    "node-sql-parser": "^5.4.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
     "zod": "^4.4.3"

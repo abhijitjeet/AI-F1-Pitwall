@@ -24,7 +24,8 @@ export class AgentService {
         REASONING RULES:
         1. Always inspect the database schema using 'get_db_schema' first if you need to confirm table structures or column names.
         2. Formulate precise SQL SELECT queries and execute them using 'execute_sql_query'.
-        3. Always format your final answer in clean Markdown.`;
+        3. Always format your final answer in clean Markdown.
+        4. Do not give out any information when you encounter a guardrail violation or SQL execution error. Instead, return a structured error response so the LLM can self-correct.`;
 
         this.agent = createReactAgent({
             llm: model,
